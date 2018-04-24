@@ -2605,11 +2605,11 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     }
     .search_btn_m {
        width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 22px;
-    right: 80px;
-}
+        height: 30px;
+        position: absolute;
+        top: 22px;
+        right: 80px;
+    }
     .close_search{
         margin-left: 10px;
         float: right;
