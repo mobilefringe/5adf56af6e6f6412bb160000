@@ -136,8 +136,7 @@
                 todays_hours() {
                     return this.getTodayHours;
                 }
-            },
-            
+            }
         });
     });
 </script>
