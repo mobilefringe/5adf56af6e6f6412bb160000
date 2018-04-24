@@ -116,7 +116,8 @@
                     _.forEach(this.menu_items, function(value, key) {
                         value.show_sub_menu = false;
                     });
-                    this.show_mobile_menu = false; //close menu when navigating to new page
+                    //close menu when navigating to new page
+                    this.show_mobile_menu = false; 
                 },
                 show_mobile_menu: function() {
                     if(this.show_mobile_menu === true){
