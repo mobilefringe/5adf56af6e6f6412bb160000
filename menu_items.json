@@ -6,22 +6,22 @@
     },
     {
         "name": "Sales & Promos",
-        id: "sales_link",
-        href: "/promotions"
+        "id": "sales_link",
+        "href": "/promotions"
     },
     {
-        name: "Events",
-        id: "events_link",
-        href: "/events",
+        "name": "Events",
+        "id": "events_link",
+        "href": "/events"
     },
     {
-        name: "Magazine",
-        id: "magazine_link",
-        href: this.magazine_url,
+        "name": "Magazine",
+        "id": "magazine_link",
+        "href": "this.magazine_url"
     },
     {
-        name: "Contact Us",
-        id: "hours_link",
-        href: "/contact_us",
+        "name": "Contact Us",
+        "id": "hours_link",
+        "href": "/contact_us"
     }
 ]
