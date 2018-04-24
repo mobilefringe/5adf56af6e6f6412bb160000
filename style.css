@@ -2583,7 +2583,9 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     .phone_padding_top_60 {
         padding-top: 60px;
     }
-
+    #menu-icon {
+        display: inline-block;
+    }
     .locate_store, #store_list_container_map{
         left:20px;
     }
