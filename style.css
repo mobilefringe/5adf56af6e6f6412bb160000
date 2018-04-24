@@ -2610,6 +2610,9 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
         top: 22px;
         right: 80px;
         border: 1px solid #000;
+        cursor: pointer;
+        font-size: 17px;
+        padding: 5px;
     }
     .close_search{
         margin-left: 10px;
