@@ -110,23 +110,23 @@
                     menu_items: MenuItems
                 }
             },
-            watch: {
-                $route: function() {
-                    // hide dropdown when route changes
-                    _.forEach(this.menu_items, function(value, key) {
-                        value.show_sub_menu = false;
-                    });
-                    //close menu when navigating to new page
-                    this.show_mobile_menu = false; 
-                },
-                show_mobile_menu: function() {
-                    if(this.show_mobile_menu === true){
-                        document.body.classList.add("no-scroll");
-                    } else if (this.show_mobile_menu === false) {
-                        document.body.classList.remove("no-scroll");
-                    }
-                }
-            },
+            // watch: {
+            //     $route: function() {
+            //         // hide dropdown when route changes
+            //         _.forEach(this.menu_items, function(value, key) {
+            //             value.show_sub_menu = false;
+            //         });
+            //         //close menu when navigating to new page
+            //         this.show_mobile_menu = false; 
+            //     },
+            //     show_mobile_menu: function() {
+            //         if(this.show_mobile_menu === true){
+            //             document.body.classList.add("no-scroll");
+            //         } else if (this.show_mobile_menu === false) {
+            //             document.body.classList.remove("no-scroll");
+            //         }
+            //     }
+            // },
             computed: {
                 ...Vuex.mapGetters([
                     'property',
