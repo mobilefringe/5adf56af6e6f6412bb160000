@@ -86,39 +86,7 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'datastore', 'vu
                 stickyMenu: false,
                 isSticky: 225,
                 navbar: null,
-                menu_items: [
-                    // {
-                    //     name: "Home",
-                    //     id: "home_link",
-                    //     href: "/",
-                    //     parent_id: "home"
-                    // },
-                    {
-                        name: "Store Directory",
-                        id: "stores_link",
-                        href: "/stores"
-                    },
-                    {
-                        name: "Sales & Promos",
-                        id: "sales_link",
-                        href: "/promotions"
-                    },
-                    {
-                        name: "Events",
-                        id: "events_link",
-                        href: "/events",
-                    },
-                    {
-                        name: "Magazine",
-                        id: "magazine_link",
-                        href: this.magazine_url,
-                    },
-                    {
-                        name: "Contact Us",
-                        id: "hours_link",
-                        href: "/contact_us",
-                    }
-                ]
+                menu_items:  MenuItems,
             }
         },
         created() {
