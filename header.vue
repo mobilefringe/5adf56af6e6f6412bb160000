@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<transition name="custom-classes-transition" enter-active-class="animated slideInDown" leave-active-class="animated slideOutUp">
-			<div class="mobile_menu_container" v-show="show_mobile_menu">
+			<div class="mobile_menu_container" v-show="show_mobile_menu" key="mobile_nav_1">
 				<div class="opened_mobile_menu" >
 					<div class="text-left" style="padding-bottom: 20px;border-bottom: 1px solid #fff;">
 						<img src="//codecloud.cdn.speedyrails.net/sites/5adf56af6e6f6412bb160000/image/png/1513273840666/mobile_menu_logo.png"  alt="">
