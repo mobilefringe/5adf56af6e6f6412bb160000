@@ -2799,15 +2799,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     .site-logo.show_phone {
         width:120px;
     }
-    .search_btn{
-        width: 30px;
-        // float: right;
-        // margin-top: 12px;
-        float: none; 
-        // margin: 4px auto 0;
-        // margin: 26px auto 0;
-        margin: 25px auto 0;
-    }
+    
     .open_menu{
         width:33px;
         // margin-top:20px;
