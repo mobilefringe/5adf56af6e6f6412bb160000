@@ -181,24 +181,6 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'datastore', 'vu
             changeLocale: function(val) {
                 this.locale = val; // this will update the data store, which in turn will trigger the watcher to update the locale in the system
             },
-            onOptionSelect(option) {
-                
-                this.$nextTick(function() {
-                    //clear search when changing routes
-                    this.show_mobile_search = false;
-                    this.is_searching = false;
-                    this.mobile_search = "";
-                    this.desktop_search = "";
-                });
-                this.$router.push("/stores/" + option.slug);
-            },
-            currentlySearching(value) {
-                if (_.size(value) > 0) {
-                    this.is_searching = true;
-                } else {
-                    this.is_searching = false;
-                }
-            }
 
         },
         destroyed: function() {
