@@ -2532,6 +2532,18 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     .overlay2{
         height:194px;
     }
+    .search_btn, .close_search{
+        margin-left: 10px;
+        float: right;
+        margin-top: 20px;
+        cursor: pointer;
+        font-size: 17px;
+        padding: 5px;
+        border: 1px solid #000;
+        width: 27px;
+        text-align: center;
+    }
+    
     .site_search_results h2{
         padding: 15px 12px;
         font-size: 16px;
