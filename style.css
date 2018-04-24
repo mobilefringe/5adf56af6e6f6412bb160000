@@ -2603,12 +2603,13 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     .overlay2{
         height:194px;
     }
-    .search_btn_m {
+    .search_btn {
        width: 30px;
         height: 30px;
         position: absolute;
         top: 22px;
         right: 80px;
+        border: 1px solid #000;
     }
     .close_search{
         margin-left: 10px;
