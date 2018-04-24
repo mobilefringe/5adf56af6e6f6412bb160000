@@ -37,11 +37,11 @@ require.config({
         'mapplic' : 'https://preview-mmvue.codecloudapp.com/mapplic',
         'hammer' : 'https://codecloud.cdn.speedyrails.net/sites/59bac7db6e6f644f22ba0000/text/javascript/1484859750000/hammer.min',
         'mapplic-map' : 'https://preview-mmvue.codecloudapp.com/mapplic.vue?noext',
-        'campaignMonitor': 'https://js.createsend1.com/javascript/copypastesubscribeformlogic'
+        'campaignMonitor': 'https://js.createsend1.com/javascript/copypastesubscribeformlogic',
     }
 });
 
-require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'datastore', 'vue-i18n', 'locales', 'moment', 'vue-meta', "moment-timezone", "vue-moment", 'vue-social-sharing', 'vue-select', "vue!search-component", 'vue-fullcalendar', 'vue-simple-spinner', 'vue!loader.vue', 'vue!header.vue', 'json!menu_items.json'], function(Vue, Vuex, Vue2Filters, VueRouter, appRoutes, store, VueI18n, messages, moment, Meta, tz, VueMoment, SocialSharing, VueSelect, SearchComponent, FullCalendar, Spinner, Loader, Header, MenuItems) {
+require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'datastore', 'vue-i18n', 'locales', 'moment', 'vue-meta', "moment-timezone", "vue-moment", 'vue-social-sharing', 'vue-select', "vue!search-component", 'vue-fullcalendar','vue-simple-spinner','vue!loader.vue', 'vue!header.vue', 'json!menu_items.json'], function(Vue, Vuex, Vue2Filters, VueRouter, appRoutes, store, VueI18n, messages, moment, Meta, tz, VueMoment, SocialSharing, VueSelect, SearchComponent, FullCalendar, Spinner, Loader, Header, MenuItems) {
     Vue.use(Meta);
     Vue.use(VueRouter);
     Vue.use(Vue2Filters);
@@ -86,7 +86,7 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'datastore', 'vu
                 stickyMenu: false,
                 isSticky: 225,
                 navbar: null,
-                menu_items: MenuItems,
+                menu_items:  MenuItems,
             }
         },
         created() {
@@ -153,10 +153,10 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'datastore', 'vu
                 return this.processedStores;
             },
             magazine_url() {
-
-                if (this.$store.state.repos) {
+                
+                if( this.$store.state.repos) {
                     var temp_repo = this.findRepoByName('Magazine PDFs');
-                    if (temp_repo) {
+                    if(temp_repo) {
                         return temp_repo.images[0];
                     }
                 }
@@ -182,7 +182,7 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'datastore', 'vu
                 this.locale = val; // this will update the data store, which in turn will trigger the watcher to update the locale in the system
             },
             onOptionSelect(option) {
-
+                
                 this.$nextTick(function() {
                     //clear search when changing routes
                     this.show_mobile_search = false;
