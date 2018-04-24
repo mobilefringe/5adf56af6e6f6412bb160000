@@ -37,7 +37,7 @@ require.config({
         'mapplic' : 'https://preview-mmvue.codecloudapp.com/mapplic',
         'hammer' : 'https://codecloud.cdn.speedyrails.net/sites/59bac7db6e6f644f22ba0000/text/javascript/1484859750000/hammer.min',
         'mapplic-map' : 'https://preview-mmvue.codecloudapp.com/mapplic.vue?noext',
-        'campaignMonitor': 'https://js.createsend1.com/javascript/copypastesubscribeformlogic',
+        'campaignMonitor': 'https://js.createsend1.com/javascript/copypastesubscribeformlogic'
     }
 });
 
