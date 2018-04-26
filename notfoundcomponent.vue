@@ -12,7 +12,7 @@
             template: template, // the variable template will be injected
             data: function() {
                 return {
-                    "text": "Custom 404 Page"
+                    "text": "Sorry the page you were looking for could not be found!"
                 };
             }
         });
