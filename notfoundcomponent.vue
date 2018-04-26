@@ -1,6 +1,6 @@
 <template>
   <div class="row main_container">
-    <div class="large-6 columns">
+    <div class="large-6 columns text-centre">
       <h1>{{text}}</h1>
     </div>
   </div>
