@@ -76,9 +76,6 @@
                         <p class="newsletter_desc sub_title">{{$t('home_page.special_offers')}} <br class="show_phone" /><span>•</span> {{$t('home_page.new_store_openings')}}<br class="show_phone" /><span>•</span> {{$t('home_page.read_more')}}</p>
                         <router-link to="/newsletter" class="animated_btn newsletter_btn">Subscribe</router-link>
                     </div>
-                    "special_offers" : "Offres spéciales",
-    "new_store_openings" : "Nouvelles ouvertures de magasins",
-    "exclusive_events"
                  <hr/>
             </div>
             <!--<h2 class="promotion_heading text-center visit_us_header">Visit Us!</h2>-->
