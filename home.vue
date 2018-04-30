@@ -73,7 +73,7 @@
             <div class="main_container">
                 <div class="newsletter_container text-center">
                         <h2 class="heading">{{$t('home_page.read_more')}}</h2>
-                        <p class="newsletter_desc sub_title">Special Offers <br class="show_phone" /><span>•</span> New Store Openings <br class="show_phone" /><span>•</span> Exclusive Events</p>
+                        <p class="newsletter_desc sub_title">{{$t('home_page.read_more')}} <br class="show_phone" /><span>•</span> New Store Openings <br class="show_phone" /><span>•</span> Exclusive Events</p>
                         <router-link to="/newsletter" class="animated_btn newsletter_btn">Subscribe</router-link>
                     </div>
                     "special_offers" : "Offres spéciales",
