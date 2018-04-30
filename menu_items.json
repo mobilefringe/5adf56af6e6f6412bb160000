@@ -1,6 +1,6 @@
 [
     {
-        "name": "Store Directory",
+        "name": "header.stores",
         "id": "stores_link",
         "href": "/stores"
     },
