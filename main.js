@@ -180,6 +180,7 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'datastore', 'vu
             },
             // utility method to allow user to change locale value
             changeLocale: function(val) {
+                console.log("in changeLocale wit", val)
                 this.locale = val; // this will update the data store, which in turn will trigger the watcher to update the locale in the system
             },
 
