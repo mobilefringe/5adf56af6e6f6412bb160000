@@ -134,7 +134,7 @@
                     return truncate;
                 },
                 shareURL(slug){
-                    var share_url = "http://www.mallmaverick.com/promotions/" + slug;
+                    var share_url = "http://www.caramel.codecloudapp.com/promotions/" + slug;
                     return share_url;
                 }
             }
