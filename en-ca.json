@@ -29,7 +29,8 @@
     "privacy_policy" : "Privacy Policy",
     "powered_by" : "Powered by",
     "visit_us" : "Visit Us",
-    "click_for_map"
+    "click_for_map": "Click for Map",
+    
   },
   "home_page": {
     "explore" : "Explore",
