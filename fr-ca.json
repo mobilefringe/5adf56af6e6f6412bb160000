@@ -26,7 +26,11 @@
     "subscribe_thankyou" : "Nous vous remercions de vous être inscrits à notre Newsletter.",
     "all_rights" : "Tous droits réservés.",
     "privacy_policy" : "Règles de confidentialité",
-    "powered_by" : "Géré par"
+    "powered_by" : "Géré par",
+    "visit_us" : "Visit Us",
+    "click_for_map": "Click for Map",
+    "social" : "Social",
+    "connect_with_us" : "Connect with Us"
   },
   "home_page": {
     "explore" : "Explorer",
