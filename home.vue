@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="promotions" id="feature_promotions" v-if="promotions.length > 0">
-                <h3 class="promotion_heading">Upcoming Events & Promotions!</h3>
+                <h3 class="promotion_heading">{{$t('header.follow_us_on')}}!</h3>
                 <p class="exclusive_deals sub_title">Don’t miss our exclusive deals & events</p>
                 
                 <div class="home_promotions feature_row" id="promos_container">
