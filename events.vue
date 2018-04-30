@@ -8,7 +8,7 @@
                 <div class="promo_list_container text_center">
                     <p class="top_promo_date">{{promo.start_date | moment("MMM D", timezone)}} - {{promo.end_date | moment("MMM D", timezone)}}</p>
                     <div class="promo_list_img_container">
-                        <a :href="promo.slug" target="_blank">
+                        <a :href="'/events/'+promo.slug" target="_blank">
                         <img :src="promo.image_url" class="promo_list_img">
                             
                         </a>
