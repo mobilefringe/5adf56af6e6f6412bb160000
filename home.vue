@@ -72,10 +72,13 @@
         <div class="content_container  position_relative hidden_phone" style="padding:0">
             <div class="main_container">
                 <div class="newsletter_container text-center">
-                        <h2 class="heading">SIGN UP TO RECEIVE OUR UPDATES</h2>
+                        <h2 class="heading">{{$t('home_page.read_more')}}</h2>
                         <p class="newsletter_desc sub_title">Special Offers <br class="show_phone" /><span>•</span> New Store Openings <br class="show_phone" /><span>•</span> Exclusive Events</p>
                         <router-link to="/newsletter" class="animated_btn newsletter_btn">Subscribe</router-link>
                     </div>
+                    "special_offers" : "Offres spéciales",
+    "new_store_openings" : "Nouvelles ouvertures de magasins",
+    "exclusive_events"
                  <hr/>
             </div>
             <!--<h2 class="promotion_heading text-center visit_us_header">Visit Us!</h2>-->
