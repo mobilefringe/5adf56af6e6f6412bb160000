@@ -28,6 +28,7 @@
                                     </div>
                                     <div class="teamy__back"></div>
                                     <p v-if="locale=='en-ca'" class="feature_text">{{item.name}}</p>
+                                    <p v-else class="feature_text">{{item.name_2}}</p>
                                 </router-link>
                             </div>
                         </article>
