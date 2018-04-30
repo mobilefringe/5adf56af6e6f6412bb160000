@@ -72,8 +72,8 @@
         <div class="content_container  position_relative hidden_phone" style="padding:0">
             <div class="main_container">
                 <div class="newsletter_container text-center">
-                        <h2 class="heading">{{$t('home_page.read_more')}}</h2>
-                        <p class="newsletter_desc sub_title">{{$t('home_page.special_offers')}} <br class="show_phone" /><span>•</span> {{$t('home_page.new_store_openings')}}<br class="show_phone" /><span>•</span> {{$t('home_page.read_more')}}</p>
+                        <h2 class="heading">{{$t('home_page.sign_up_to_receive')}}</h2>
+                        <p class="newsletter_desc sub_title">{{$t('home_page.special_offers')}} <br class="show_phone" /><span>•</span> {{$t('home_page.new_store_openings')}}<br class="show_phone" /><span>•</span> {{$t('home_page.exclusive_events')}}</p>
                         <router-link to="/newsletter" class="animated_btn newsletter_btn">Subscribe</router-link>
                     </div>
                  <hr/>
