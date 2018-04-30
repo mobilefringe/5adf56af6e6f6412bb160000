@@ -15,7 +15,7 @@
         "href": "/events"
     },
     {
-        "name": "Hours",
+        "name": "header.hours",
         "id": "hours_link",
         "href": "/hours"
     },
