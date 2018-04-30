@@ -27,7 +27,7 @@
                                         <img :src="item.image_url" class="teamy__avatar" alt="The demo photo">
                                     </div>
                                     <div class="teamy__back"></div>
-                                    <p class="feature_text">{{item.name}}</p>
+                                    <p v-if="locale=='en-ca'" class="feature_text">{{item.name}}</p>
                                 </router-link>
                             </div>
                         </article>
