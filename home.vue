@@ -47,7 +47,7 @@
                             <div class="teamy__layout">
                                 <router-link :to="'/promotions/'+promo.slug">
                                     <div class="teamy__preview">
-                                        <img :src="promo.image_url" class="teamy__avatar featured_promo_img" alt="The demo photo">
+                                        <img :src="promo.store.store_front_abs_url" class="teamy__avatar featured_promo_img" alt="The demo photo">
                                     </div>
                                     <div class="teamy__back">
                                         <div class="teamy__back-inner">
