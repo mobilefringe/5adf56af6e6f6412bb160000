@@ -20,7 +20,7 @@
         "href": "/hours"
     },
     {
-        "name": "Contact Us",
+        "name": "header.contact_us",
         "id": "hours_link",
         "href": "/contact_us"
     }
