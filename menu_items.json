@@ -15,6 +15,11 @@
         "href": "/events"
     },
     {
+        "name": "header.jobs",
+        "id": "events_link",
+        "href": "/events"
+    },
+    {
         "name": "header.hours",
         "id": "hours_link",
         "href": "/hours"
