@@ -10,7 +10,7 @@
         "href": "/promotions"
     },
     {
-        "name": "Events",
+        "name": "header.events",
         "id": "events_link",
         "href": "/events"
     },
