@@ -38,7 +38,8 @@
     "sign_up_to_receive" : "INSCRIVEZ-VOUS POUR RECEVOIR NOS MISES À JOUR",
     "special_offers" : "Offres spéciales",
     "new_store_openings" : "Nouvelles ouvertures de magasins",
-    "exclusive_events" : "Événements exclusifs"
+    "exclusive_events" : "Événements exclusifs",
+    "subscribe" : "Inscription"
   },
   "stores_page" : {
     "shopping" : "Magasiner",
