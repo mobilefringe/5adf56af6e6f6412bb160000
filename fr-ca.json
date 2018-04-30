@@ -35,7 +35,10 @@
     "dont_miss_our_deals": "Ne manquez pas nos offres et événements exclusifs",
     "read_more" : "Voir plus",
     "view_details" : "Voir les détails",
-    "sign_up_to_receive" : "INSCRIVEZ-VOUS POUR RECEVOIR NOS MISES À JOUR"
+    "sign_up_to_receive" : "INSCRIVEZ-VOUS POUR RECEVOIR NOS MISES À JOUR",
+    "special_offers" : "Special Offers",
+    "new_store_openings" : "New Store Openings",
+    "exclusive_events" : "Exclusive Events"
   },
   "stores_page" : {
     "shopping" : "Magasiner",
