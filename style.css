@@ -3234,8 +3234,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
 }
 .promotion_item .teamy__preview{
     height: 100%;
-    // width: 209px;
-    // /* border: solid 1px #cccccc; */
+    border: solid 1px #cccccc;
 }
 .promotion_item {
     .teamy__back{
