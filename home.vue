@@ -61,7 +61,7 @@
                         </article>
                         <h3  v-if="locale=='en-ca'" class="promotion_header home_promos">{{promo.name}}</h3>
                         <h3  v-else class="promotion_header home_promos">{{promo.name_2}}</h3>
-                        <router-link :to="'/promotions/'+promo.slug" class="animated_btn text_center">{{$t('home_page.read_more')}}Read More</router-link>
+                        <router-link :to="'/promotions/'+promo.slug" class="animated_btn text_center">{{$t('home_page.read_more')}}</router-link>
                     </div>
                 </div>
                 <hr class="show_phone" />
