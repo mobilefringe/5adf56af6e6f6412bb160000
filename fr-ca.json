@@ -30,7 +30,8 @@
   },
   "home_page": {
     "explore" : "Explorer",
-    "our_feed" : "Notre actualité"
+    "our_feed" : "Notre actualité",
+    "upcoming_events_promos" : "Prochains événements et promotions"
   },
   "stores_page" : {
     "shopping" : "Magasiner",
