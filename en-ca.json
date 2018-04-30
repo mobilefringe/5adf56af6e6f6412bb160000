@@ -39,7 +39,8 @@
     "sign_up_to_receive" : "SIGN UP TO RECEIVE OUR UPDATES",
     "special_offers" : "Special Offers",
     "new_store_openings" : "New Store Openings",
-    "exclusive_events" : "Exclusive Events"
+    "exclusive_events" : "Exclusive Events",
+    "subscribe" : "Subscribe",
   },
   "stores_page" : {
     "shopping" : "shopping",
