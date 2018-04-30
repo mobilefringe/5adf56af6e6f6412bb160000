@@ -32,7 +32,9 @@
     "explore" : "Explorer",
     "our_feed" : "Notre actualité",
     "upcoming_events_promos" : "Prochains événements et promotions",
-    "dont_miss_our_deals": "Ne manquez pas nos offres et événements exclusifs"
+    "dont_miss_our_deals": "Ne manquez pas nos offres et événements exclusifs",
+    "read_more" : "Read More",
+    "view_details" : "Voir les détails"
   },
   "stores_page" : {
     "shopping" : "Magasiner",
