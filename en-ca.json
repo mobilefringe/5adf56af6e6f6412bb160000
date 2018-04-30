@@ -37,7 +37,8 @@
     "read_more" : "Read More",
     "view_details" : "View Details",
     "sign_up_to_receive" : "SIGN UP TO RECEIVE OUR UPDATES",
-    "special_offers" : "Special Offers"
+    "special_offers" : "Special Offers",
+    "new_store_openings" : "New Store Openings",
   },
   "stores_page" : {
     "shopping" : "shopping",
