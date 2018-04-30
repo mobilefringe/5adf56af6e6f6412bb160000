@@ -31,7 +31,8 @@
   },
   "home_page": {
     "explore" : "Explore",
-    "our_feed" : "Our Feed"
+    "our_feed" : "Our Feed",
+    "upcoming_events_promos" : "Prochains événements et promotions"
   },
   "stores_page" : {
     "shopping" : "shopping",
