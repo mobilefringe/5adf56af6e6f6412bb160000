@@ -37,7 +37,7 @@
             </div>
             <div class="promotions" id="feature_promotions" v-if="promotions.length > 0">
                 <h3 class="promotion_heading">{{$t('home_page.upcoming_events_promos')}}!</h3>
-                <p class="exclusive_deals sub_title">Don’t miss our exclusive deals & events</p>
+                <p class="exclusive_deals sub_title">Ne manquez pas nos offres et événements exclusifs</p>
                 
                 <div class="home_promotions feature_row" id="promos_container">
                     <div class="promotion_item wow animated flipInX animated teamy-team text_center" v-for="promo in promotions">
