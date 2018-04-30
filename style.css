@@ -3243,7 +3243,6 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
         margin:auto;
     }
     .teamy__avatar{
-        border: solid 1px #cccccc;
         height: 100%;
     }
 }
