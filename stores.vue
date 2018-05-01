@@ -19,7 +19,7 @@
                         <div class="map_storelist">
                             <v-select :options="allStores" :placeholder="'Select A Store'" :searchable="false" :label="'name'" :on-change="dropPin"></v-select> 
                         </div>
-                        <mapplic-map ref="mapplic_ref" :height="500" :minimap= "false" :deeplinking="false" :sidebar="false" :hovertip="true" :maxscale= "5" :storelist="allStores" :floorlist="floorList" :svgWidth="2000" :svgHeight="2000" tooltiplabel="Info"></mapplic-map>
+                        <mapplic-map ref="mapplic_ref" :height="500" :minimap= "false" :deeplinking="false" :sidebar="false" :hovertip="true" :maxscale= "5" :storelist="allStores" :floorlist="floorList" :svgWidth="2500" :svgHeight="2500" tooltiplabel="Info"></mapplic-map>
                     </div>
                 </div>
             </div>
